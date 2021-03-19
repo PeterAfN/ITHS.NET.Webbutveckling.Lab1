@@ -1,6 +1,6 @@
 ﻿# ITHS.NET.Webbutveckling.Lab1
  
-Denna lab ingick i kursen "Utveckling mot databas och databasadministration 45p" på IT-Högskolan i Göteborg som jag läste våren år 2021.
+Denna lab ingick i kursen "Webbutveckling med .NET 60p" på IT-Högskolan i Göteborg som jag läste våren år 2021.
 
 ## Uppgiftsbeskrivningen för labben:
 #### Webb.Net Inlämningsuppgift 1.
