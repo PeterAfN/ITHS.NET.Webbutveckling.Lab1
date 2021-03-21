@@ -4,27 +4,183 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../../content/css/navigation.css" />
+    <link rel="stylesheet" href="../../content/css/colors.css" />
+    <link rel="stylesheet" href="../../content/css/landing-page.css" />
+    <link rel="stylesheet" href="../../content/css/mobile.css" />
+    <link rel="stylesheet" href="../../content/css/styles.css" />
+    <link rel="stylesheet" href="../../content/css/utilities.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>WestCoast Education</title>
   </head>
   <body>
-    <!-- NAV -->
-    <nav id="main-nav">
-
-    </nav>
+    <!--NAVIGATION , LANDING-->
+    <!-- <nav id="main-nav">
+      <div class="container">
+        <ul>
+          <li><a class="active" href="index.html">Översikt</a></li>
+          <li><a href="courses.html">Kurser</a></li>
+          <li><a href="about.html">Om oss</a></li>
+        </ul>
+        <h1 class="logo">WestCoast Education</h1>
+      </div>
+      <div class="content">
+        <h1>1 Vi säljer High End bilar för den kräsne</h1>
+        <p>2 Vi tillhandahåller prestanda bilar ifrån hela världen</p>
+        <a href="#" class="btn btn-primary"><i class="fas fa-chevron-right"></i> Läs mer här</a>
+      </div>
+    </nav> -->
 
     <!-- LANDING -->
-    <header id="main-landing">
-
+    <header class="landing">
+      <div id="navbar" class="navbar">
+        <ul>
+          <li><a href="#">Översikt</a></li>
+          <li><a href="#">Kurser</a></li>
+          <li><a href="#about">Om Oss</a></li>
+        </ul>
+        <h2 class="logo">
+          <span class="text-primary"
+            ><i class="fas fa-car"></i> WestCoast
+          </span>
+          Education<sup>&reg;</sup>
+        </h2>
+      </div>
+      <div class="content">
+        <h1>40 års erfarenhet av utbildningar inom IT branschen</h1>
+        <p>Kurser med klassrumsundervisning eller On-Demand</p>
+        <a href="#" class="btn btn-primary"
+          ><i class="fas fa-chevron-right"></i> Läs mer här</a
+        >
+      </div>
     </header>
 
     <!-- MAIN -->
     <main id="main-info">
+      <section id="about" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+            <i class="fas fa-certificate fa-2x"></i>
+            <div>
+              <h3>Garantier</h3>
+              <p>
+                3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus eum vitae velit impedit, cum perspiciatis quos dolores
+                aperiam. Voluptate, cumque.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-user-shield fa-2x"></i>
+            <div>
+              <h3>Trygghet</h3>
+              <p>
+                4 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus eum vitae velit impedit, cum perspiciatis quos dolores
+                aperiam. Voluptate, cumque.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-file-signature fa-2x"></i>
+            <div>
+              <h3>Leasing</h3>
+              <p>
+                5 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ducimus eum vitae velit impedit, cum perspiciatis quos dolores
+                aperiam. Voluptate, cumque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Warranty: content -->
+      <section class="content flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-left">
+              <img src="./content/img/warranty.jpg" alt="garantier" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-right bg-primary">
+              <h4>Garanti är en självklarhet</h4>
+              <h2>Alltid 3 månaders garanti</h2>
+              <p>
+                6 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Distinctio a quas minus dolor eum animi sequi veniam itaque,
+                neque voluptatibus quo et id praesentium facilis nisi at.
+                Commodi, at neque?
+              </p>
+              <a href="#" class="btn btn-outline"
+                ><i class="fas fa-chevron-right"></i> Läs mer</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Warranty: content -->
+      <section class="content flex-columns flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-left">
+              <img src="./content/img/comfort.jpg" alt="garantier" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-right bg-secondary">
+              <h4>Alltid trygg vid köp av bil hos oss</h4>
+              <h2>Alltid 3 månaders garanti</h2>
+              <p>
+                7 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Distinctio a quas minus dolor eum animi sequi veniam itaque,
+                neque voluptatibus quo et id praesentium facilis nisi at.
+                Commodi, at neque?
+              </p>
+              <a href="#" class="btn btn-outline"
+                ><i class="fas fa-chevron-right"></i> Läs mer</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-left">
+              <img src="./content/img/car1.jpg" alt="garantier" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-right bg-primary">
+              <h4>Leasa din önskebil</h4>
+              <h2>Vi erbjuder attraktiva leasing avtal</h2>
+              <p>
+                8 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Distinctio a quas minus dolor eum animi sequi veniam itaque,
+                neque voluptatibus quo et id praesentium facilis nisi at.
+                Commodi, at neque?
+              </p>
+              <a href="#" class="btn btn-outline"
+                ><i class="fas fa-chevron-right"></i> Läs mer</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
-    <footer id="main-footer">
-
-    </footer>
+    <footer id="main-footer"></footer>
   </body>
 </html>
