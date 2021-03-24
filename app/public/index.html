@@ -7,180 +7,188 @@
     <link rel="stylesheet" href="../../content/css/navigation.css" />
     <link rel="stylesheet" href="../../content/css/colors.css" />
     <link rel="stylesheet" href="../../content/css/landing-page.css" />
-    <link rel="stylesheet" href="../../content/css/mobile.css" />
     <link rel="stylesheet" href="../../content/css/styles.css" />
     <link rel="stylesheet" href="../../content/css/utilities.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <!-- MEDIA QUERIES -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 580px)"
+      href="../../content/css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 322px)"
+      href="../../content/css/mobileLessThan328Width.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/62de828289.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>WestCoast Education</title>
   </head>
   <body>
-    <!--NAVIGATION , LANDING-->
-    <!-- <nav id="main-nav">
-      <div class="container">
-        <ul>
-          <li><a class="active" href="index.html">Översikt</a></li>
-          <li><a href="courses.html">Kurser</a></li>
-          <li><a href="about.html">Om oss</a></li>
-        </ul>
-        <h1 class="logo">WestCoast Education</h1>
-      </div>
-      <div class="content">
-        <h1>1 Vi säljer High End bilar för den kräsne</h1>
-        <p>2 Vi tillhandahåller prestanda bilar ifrån hela världen</p>
-        <a href="#" class="btn btn-primary"><i class="fas fa-chevron-right"></i> Läs mer här</a>
-      </div>
-    </nav> -->
-
-    <!-- LANDING -->
     <header class="landing">
-      <div id="navbar" class="navbar">
+      <nav class="navbar">
         <ul>
-          <li><a href="#">Översikt</a></li>
-          <li><a href="#">Kurser</a></li>
-          <li><a href="#about">Om Oss</a></li>
+          <li><a href="./index.html" class="active">Start</a></li>
+          <li><a href="./courses.html">Kurser</a></li>
+          <li><a href="./about.html">Om Oss</a></li>
         </ul>
         <h2 class="logo">
           <span class="text-primary"
-            ><i class="fas fa-car"></i> WestCoast
+            ><i class="fas fa-university"></i> WestCoast
           </span>
           Education<sup>&reg;</sup>
         </h2>
-      </div>
+      </nav>
       <div class="content">
         <h1>40 års erfarenhet av utbildningar inom IT branschen</h1>
         <p>Kurser med klassrumsundervisning eller On-Demand</p>
-        <a href="#" class="btn btn-primary"
-          ><i class="fas fa-chevron-right"></i> Läs mer här</a
-        >
+        <a href="javascript: document.body.scrollIntoView(false);">Läs mer</a>
       </div>
     </header>
 
-    <!-- MAIN -->
     <main id="main-info">
-      <section id="about" class="icons bg-light">
+      <section id="about" class="icons bg-secondary">
         <div class="flex-items">
           <div>
-            <i class="fas fa-certificate fa-2x"></i>
+            <i class="fas fa-bullseye fa-1x"></i>
             <div>
-              <h3>Garantier</h3>
+              <h3>Vårat mål</h3>
               <p>
-                3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus eum vitae velit impedit, cum perspiciatis quos dolores
-                aperiam. Voluptate, cumque.
+                Vårt mål är att tillhandahålla tekniska utbildningar inom
+                IT-området.
               </p>
             </div>
           </div>
           <div>
-            <i class="fas fa-user-shield fa-2x"></i>
+            <i class="fas fa-file-code fa-1x"></i>
             <div>
-              <h3>Trygghet</h3>
+              <h3>Systemutveckling</h3>
               <p>
-                4 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus eum vitae velit impedit, cum perspiciatis quos dolores
-                aperiam. Voluptate, cumque.
+                Vi är specialister på systemutvecklingsutbildningar inom webb
+                och mobila lösningar.
               </p>
             </div>
           </div>
           <div>
-            <i class="fas fa-file-signature fa-2x"></i>
+            <i class="fas fa-life-ring fa-1x"></i>
             <div>
-              <h3>Leasing</h3>
+              <h3>Västkusten</h3>
               <p>
-                5 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus eum vitae velit impedit, cum perspiciatis quos dolores
-                aperiam. Voluptate, cumque.
+                WestCoast Education är ett utbildningsföretag som har sin
+                placering på västkusten strax norr om Göteborg.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Warranty: content -->
-      <section class="content flex-columns">
-        <div class="row">
-          <div class="column">
-            <div class="column-left">
-              <img src="./content/img/warranty.jpg" alt="garantier" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-right bg-primary">
-              <h4>Garanti är en självklarhet</h4>
-              <h2>Alltid 3 månaders garanti</h2>
-              <p>
-                6 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio a quas minus dolor eum animi sequi veniam itaque,
-                neque voluptatibus quo et id praesentium facilis nisi at.
-                Commodi, at neque?
-              </p>
-              <a href="#" class="btn btn-outline"
-                ><i class="fas fa-chevron-right"></i> Läs mer</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Warranty: content -->
-      <section class="content flex-columns flex-reverse">
-        <div class="row">
-          <div class="column">
-            <div class="column-left">
-              <img src="./content/img/comfort.jpg" alt="garantier" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-right bg-secondary">
-              <h4>Alltid trygg vid köp av bil hos oss</h4>
-              <h2>Alltid 3 månaders garanti</h2>
-              <p>
-                7 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio a quas minus dolor eum animi sequi veniam itaque,
-                neque voluptatibus quo et id praesentium facilis nisi at.
-                Commodi, at neque?
-              </p>
-              <a href="#" class="btn btn-outline"
-                ><i class="fas fa-chevron-right"></i> Läs mer</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="content flex-columns">
-        <div class="row">
-          <div class="column">
-            <div class="column-left">
-              <img src="./content/img/car1.jpg" alt="garantier" />
-            </div>
-          </div>
-          <div class="column">
-            <div class="column-right bg-primary">
-              <h4>Leasa din önskebil</h4>
-              <h2>Vi erbjuder attraktiva leasing avtal</h2>
-              <p>
-                8 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio a quas minus dolor eum animi sequi veniam itaque,
-                neque voluptatibus quo et id praesentium facilis nisi at.
-                Commodi, at neque?
-              </p>
-              <a href="#" class="btn btn-outline"
-                ><i class="fas fa-chevron-right"></i> Läs mer</a
-              >
-            </div>
-          </div>
-        </div>
+      <section class="breweries" id="breweries">
+        <ul>
+          <li class="small-images-p">
+            <figure>
+              <img
+                src="../../content/img/pexels-nicholas-swatz-2769753.jpg"
+                align="middle"
+              />
+              <figcaption><h3>Kundnöjdhet</h3></figcaption>
+            </figure>
+            <p>
+              Vi har varit väldigt framgångsrika i alla år vi bedrivit
+              utbildningar.
+            </p>
+            <a href="#">Läs mer</a>
+          </li>
+          <li class="small-images-p">
+            <figure>
+              <img
+                src="../../content/img/pexels-pixabay-267507.jpg"
+                align="middle"
+              />
+              <figcaption>
+                <h3>Klassrumsutbildningar i skolan eller på distans</h3>
+              </figcaption>
+            </figure>
+            <p>
+              Förutom klassrumsutbildningar har vi distansutbildningar där
+              elever kan närvara via länk till klassrum.
+            </p>
+            <a href="#">Läs mer</a>
+          </li>
+          <li class="small-images-p">
+            <figure>
+              <img
+                src="../../content/img/pexels-anthony-shkraba-5292261.jpg"
+                align="middle"
+              />
+              <figcaption><h3>On-demand Köp</h3></figcaption>
+            </figure>
+            <p>
+              Vi erbjuder också färdiginspelade kurser till ett överkomligt
+              pris.
+            </p>
+            <a href="#">Läs mer</a>
+          </li>
+          <li class="small-images-p">
+            <figure>
+              <img
+                src="../../content/img/ecommerce-subscription-ts-100621375-large.jpg"
+                align="middle"
+              />
+              <figcaption><h3>On-demand Prenumeration</h3></figcaption>
+            </figure>
+            <p>
+              Vi erbjuder även en prenumerationsmöjlighet för köp av inspelade
+              kurser och seminarier för visning i webbläsare, mobila enheter
+              samt för nedladdning. Allt detta för en låg månadskostnad.
+            </p>
+            <a href="#">Läs mer</a>
+          </li>
+        </ul>
       </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer id="main-footer"></footer>
+    <footer id="main-footer" class="py-2">
+      <div class="container footer-container">
+        <div class="footer-columns">
+          <h3>Nyhetsbrev</h3>
+          <p>
+            Prenumera på vårat nyhetsbrev för att inte missa bra erbjudanden och information om nya kurser.
+          </p>
+          <form>
+            <input class="subscribe-email-input" type="email" placeholder="Ange din e-post..." />
+            <input type="submit" value="Prenumerera" class="subscribe-btn" />
+          </form>
+        </div>
+        <div>
+          <h3>Länkar</h3>
+          <ul class="list">
+            <li><a href="#">Support & Hjälp</a></li>
+            <li><a href="#">Om Oss</a></li>
+            <li><a href="#">Kontakta Oss</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Registrering</h3>
+          <p>
+            Registrera dig för att kunna köpa kurser.
+          </p>
+          <a href="#" class="register-btn">Registrera</a>
+        </div>
+        <!-- <div>
+          <p>Copyright &copy; WestCoast Education 2021</p>
+        </div> -->
+      </div>
+      <p>WestCoast Cars &copy;2021, All Rights Reserved</p>
+    </footer>
   </body>
 </html>
