@@ -13,18 +13,16 @@
   margin: 0 0rem;
 }
 
-.flex-items {
+.flex-items-row-direction {
   flex-direction: column;
 }
 
-.flex-items h3 {
-    font-size: 0.95rem; 
-    /* border: 3px solid red; */
-  }
-
-.flex-items p {
+.flex-items-row-direction h3 {
   font-size: 0.95rem;
-  /* border: 3px solid royalblue; */
+}
+
+.flex-items-row-direction p {
+  font-size: 0.95rem;
 }
 
 .landing .content h1 {
@@ -38,12 +36,8 @@
 }
 
 .landing .content a {
-padding: 0.8rem;
-font-size: smaller;
-}
-
-.landing .content a:hover {
-opacity: 0.8;
+  padding: 0.8rem;
+  font-size: smaller;
 }
 
 .breweries > ul > li > p {
@@ -59,7 +53,7 @@ opacity: 0.8;
 }
 
 #main-footer h3 {
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 #main-footer p,
@@ -71,8 +65,7 @@ opacity: 0.8;
   padding: 0.7rem;
 }
 
-#main-footer .footer-container input[type="submit"] {
-  padding: 0.7rem ;
-
+#main-footer input[type="submit"] {
+  padding: 0.7rem;
   font-size: 0.8rem;
 }
