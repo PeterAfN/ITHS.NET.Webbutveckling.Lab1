@@ -1,0 +1,5 @@
+#main-classroomcourses p,
+#main-ondemandcourses {
+    color: var(--dark-color);
+    /* z-index: 10; */
+}
