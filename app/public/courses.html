@@ -35,10 +35,11 @@
     />
     <title>WestCoast Education</title>
   </head>
-  <body>
-    <header class="landing">
+
+  <body id="courses-body">
+    <header id="landing-courses">
       <!-- ****** navbar ****** -->
-      <nav id="main-navbar" class="navbar">
+      <nav id="courses-navbar" class="navbar">
         <ul>
           <li><a href="./index.html">Start</a></li>
           <li><a href="./courses.html" class="active">Kurser</a></li>
@@ -52,45 +53,52 @@
         </h2>
       </nav>
       <!-- ****** landing ****** -->
-      <div class="content">
+      <!-- <div class="content">
         <h1>Vi erbjuder både klassrumskurser och kurser On-Demand</h1>
-        <p>Inom systemutveckling är vi specialister</p>
-        <a class="btn" href="javascript: document.body.scrollIntoView(false);"
-          >Läs mer</a
-        >
-      </div>
+        <p>Inom systemutveckling är vi specialister. Läs mer om alla kurser nedan.</p>
+
+      </div> -->
     </header>
-    <main>
+
+    <main id="main-courses">
       <!-- ****** courses ****** -->
-      <article id="main-classroomcourses">
+      <!-- <article id="main-classroomcourses">
         <section>
-            <h2>Klassrumskurser:</h2>
-            <div class="container-classroomcourses">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
-                    similique quidem neque natus et possimus excepturi, dolor culpa
-                    tempore facilis, rerum blanditiis modi non laborum nesciunt aspernatur
-                    eligendi fuga tenetur?
-                  </p>
-            </div>
+          <div class="container-classroomcourses">
+            <h2>Klassrumskurser:</h2> 
+          </div>
         </section>
-    </article>  
-    <article id="main-ondemandcourses">
+      </article>
+      <article id="main-ondemandcourses">
         <section>
-            <h2>On-Demand (nedladdningsbara kurser):</h2>
-            <div class="container-ondemandcourses">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
-                    similique quidem neque natus et possimus excepturi, dolor culpa
-                    tempore facilis, rerum blanditiis modi non laborum nesciunt aspernatur
-                    eligendi fuga tenetur?
-                  </p>
-            </div>
+          <div class="container-ondemandcourses">
+            <h2>On-Demand - Nedladdningsbara kurser:</h2>
+          </div>
         </section>
-    </article>
-
-
+      </article> -->
+      <!-- Vehicle table -->
+      <section id="tableView">
+        <section class="scroll-container">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Kurs</th>
+                  <th>Beskrivning</th>
+                  <th>Kategori</th>
+                  <th>Längd</th>
+                  <th>Kurstyp</th>
+                  <th>Kursnummer</th>
+                </tr>
+              </thead>
+              <tbody id="courses-table-content"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
     </main>
+
     <footer id="main-footer" class="py-2">
       <!-- ****** footer ****** -->
       <div class="grid-items-autofit-same-size">

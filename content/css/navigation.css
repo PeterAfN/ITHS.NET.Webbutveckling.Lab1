@@ -8,7 +8,7 @@
   position: fixed;
   top: 0px;
   padding: 0 2rem;
-  opacity: 0.8;
+  opacity: 0.9;
   width: 100%;
   height: 4.4rem;
 }
@@ -31,4 +31,9 @@
 
 .navbar .logo {
   font-weight: 400;
+}
+
+#landing-courses {
+  background-color: red;
+  /* color: greenyellow; */
 }
