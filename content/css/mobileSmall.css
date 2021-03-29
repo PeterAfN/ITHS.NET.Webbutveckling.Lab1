@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.navbar a {
+  padding: 0.2rem;
+  margin: 1rem 0rem;
+}
+
 /******* landing *******/
 .landing .content h1 {
   font-size: 1.6rem;
