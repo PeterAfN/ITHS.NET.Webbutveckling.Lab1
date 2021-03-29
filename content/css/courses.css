@@ -1,61 +1,13 @@
-/* #main-classroomcourses,
-#main-ondemandcourses {
-  color: var(--dark-color);
-}
-
-.container-classroomcourses h2,
-.container-ondemandcourses h2 {
-  margin-top: 80px;
-  margin-bottom: 20px;
-  font-weight: 400;
-}
-
-.container-classroomcourses,
-.container-ondemandcourses {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-}
-
-main {
-  background-color: var(--light-color);
-}
-
-.box {
-  background: var(--light-color);
-  border: solid 1px var(--primary-color);
-  margin: 8px;
-  max-width: 890px;
-  min-height: 340px;
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
-  grid-gap: 1.8rem;
-
-  border-radius: 3px;
-  text-align: center;
-}
-
-.course-list-item-1 {
-  font-weight: bold;
-  background-color: var(--secondary-color);
-  color: var(--light-color);
-} */
-
+/* ****** table courses ****** */
 #main-courses {
-  margin-top: 130px;
+  margin-top: 69px;
 }
 
-#tableView {
-  margin-bottom: 50px;
-}
-/* ****************************** */
 table {
-  overflow: hidden;
   border-collapse: collapse;
-  background-color: #fff;
+  background-color: var(--light-color);
   width: 100%;
-  min-width: 600px;
+  min-width: 678px;
 }
 
 th {
@@ -66,64 +18,28 @@ th {
 td {
   color: var(--secondary-color);
   padding: 5px;
-  border-bottom: solid 1px #f3f3f3;
+  border-bottom: solid 1px #e9e8e2;
 }
 
-thead {
-  background-color: var(--primary-color);
+#main-courses thead {
   color: #fff;
-}
-
-#admin-nav {
-  background: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-#admin-nav .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 1rem;
-  align-items: center;
-}
-
-.scroll-container {
-  border: solid 1px #949292;
-  padding: 0;
-}
-
-.table-container {
-  overflow-x: scroll;
-}
-.pagination-header {
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 15px;
   background-color: var(--secondary-color);
 }
 
-#addNewVehicle {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-#addVehicle-container form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
+.table-container {
+  overflow: hidden;
 }
 
-#save {
-  width: 100px;
-}
-input[type="text"] {
-  width: 400px;
+/* ****** media queries ****** */
+@media (max-width: 580px) {
+  #main-courses {
+    margin-top: 100px;
+  }
 }
 
-.hidden {
-  display: none;
+@media (max-width: 678px) {
+  .table-container {
+    overflow: visible;
+    overflow-x: scroll;
+  }
 }

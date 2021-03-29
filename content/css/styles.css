@@ -170,3 +170,9 @@ html {
 .register-btn:hover {
   opacity: 0.7;
 }
+
+#main-footer > p {
+  border-top: solid 1px var(--light-color);
+  padding-top: 1.4rem;
+  margin-top: 2rem;
+}

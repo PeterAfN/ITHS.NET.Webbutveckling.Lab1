@@ -1,7 +1,7 @@
 "use strict";
 
-const coursesTableContent = document.querySelector('#courses-table-content');
-const tableView = document.querySelector('#tableView');
+const coursesTableContent = document.querySelector("#courses-table-content");
+const tableView = document.querySelector("#tableView");
 
 getClassroomCoursesData();
 getOnDemandCoursesData();
@@ -18,22 +18,21 @@ function getOnDemandCoursesData() {
     .then((data) => createOnDemandCoursesTable(data));
 }
 
-
-function createClassroomCoursesTable(courses){
+function createClassroomCoursesTable(courses) {
   for (let course of courses) {
     createClassroomCoursesRow(course);
   }
 }
 
-function createOnDemandCoursesTable(courses){
+function createOnDemandCoursesTable(courses) {
   for (let course of courses) {
     createOnDemandCoursesRow(course);
   }
 }
 
-function createClassroomCoursesRow(course){
+function createClassroomCoursesRow(course) {
   coursesTableContent.insertAdjacentHTML(
-    'beforeend',
+    "beforeend",
     `
         <tr>
           <td>${course.id}</td>
@@ -48,9 +47,9 @@ function createClassroomCoursesRow(course){
   );
 }
 
-function createOnDemandCoursesRow(course){
+function createOnDemandCoursesRow(course) {
   coursesTableContent.insertAdjacentHTML(
-    'beforeend',
+    "beforeend",
     `
         <tr>
           <td>${course.id}</td>

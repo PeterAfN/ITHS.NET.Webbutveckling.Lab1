@@ -1,4 +1,4 @@
-/******* Navbar*******/
+/******* Navbar *******/
 .navbar {
   flex-direction: column;
   width: 100%;
@@ -13,6 +13,7 @@
   margin: 0 0rem;
 }
 
+/******* Flex *******/
 .flex-items-row-direction {
   flex-direction: column;
 }
@@ -25,6 +26,7 @@
   font-size: 0.95rem;
 }
 
+/******* landing *******/
 .landing .content h1 {
   font-size: 2.1rem;
   font-weight: 300;
@@ -40,18 +42,20 @@
   font-size: smaller;
 }
 
-.breweries > ul > li > p {
+/******* landing *******/
+.small-images > ul > li > p {
   font-size: 0.9rem;
 }
 
-.breweries > ul > li > a {
+.small-images > ul > li > a {
   font-size: 0.9rem;
 }
 
-.breweries > ul > li > figure > figcaption > h3 {
+.small-images > ul > li > figure > figcaption > h3 {
   font-size: 1.15rem;
 }
 
+/******* footer *******/
 #main-footer h3 {
   font-size: 1rem;
 }

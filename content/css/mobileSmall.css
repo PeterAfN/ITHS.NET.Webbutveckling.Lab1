@@ -1,15 +1,16 @@
+/******* navbar *******/
 .navbar {
   height: 7rem;
   text-align: center;
 }
 
+/******* landing *******/
 .landing .content h1 {
   font-size: 1.6rem;
   font-weight: 200;
 }
 
 .landing .content p {
-  font-size: 1.0rem;
-  /* max-width: 600px; */
+  font-size: 1rem;
   margin: 1.1rem 0 1rem;
 }
